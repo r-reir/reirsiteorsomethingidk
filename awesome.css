@@ -70,4 +70,13 @@ a {
     width: 90%;}
   }
 
+#header-image {
+  height: 200px;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,0)), url("/img/pond.gif") no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  }
+
 
