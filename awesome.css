@@ -22,6 +22,7 @@ a {
   text-align: center;
   background: #cd341d;
   color: white;
+  opacity: 0.5;
   }
   
 .header a {
@@ -33,7 +34,7 @@ a {
   background: white;
   margin: 0 auto;
   width: 700px;
-  border-radius: 10px;
+  border-radius: 0px;
   margin-top: 150px;
   margin-bottom: 25px;
   padding: 15px;
@@ -70,3 +71,5 @@ a {
   .main-normal {
     width: 90%;}
   }
+
+
