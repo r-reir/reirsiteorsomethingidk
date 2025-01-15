@@ -70,4 +70,27 @@ a {
     width: 90%;}
   }
 
+/*Variable and fixed-height boxes.*/
+.post, .post-scroller {
+  display: inline-block;
+  border: 1px solid #a10000;
+  margin: 0 auto;
+  margin-bottom:10px;
+  overflow-y: auto; /*To give fixed-height posts a scroller, and make images outside the post-inner div conform to rounded corners.*/
+  }
+  
+.post img, .post-scroller img { /*Prevent image overflow.*/
+  max-width: 100%;
+  height: auto;
+  }
+  
+/*Fixed-height box.*/
+.post-scroller {
+  height: 500px;
+  }
+  
+.post-inner { /*because padding doesn't play nice with divs directly inside columns*/
+  margin: 10px;
+  }
+
 
